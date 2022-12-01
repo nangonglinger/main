@@ -31,3 +31,6 @@ void printf_board(char board[ROWS][COLS], int row, int col);
 
 //玩家下棋
 void gamer_mine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);
+
+//实现棋盘的展开
+void open_board(char mine[ROWS][COLS], char show[ROWS][COLS], int x, int y);
