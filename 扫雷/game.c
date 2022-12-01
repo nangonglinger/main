@@ -58,7 +58,7 @@ void printf_board(char board[ROWS][COLS], int row, int col)
 	printf("\n");
 }
 //计算玩家选择坐标周围有几个雷
-static int  mine_num(char mine[ROWS][COLS], int x, int y)
+int  mine_num(char mine[ROWS][COLS], int x, int y)
 {
 		return mine[x - 1][y - 1] +
 			mine[x - 1][ y ] +
@@ -70,7 +70,7 @@ static int  mine_num(char mine[ROWS][COLS], int x, int y)
 			mine[x + 1][y + 1] - 8 * '0';
 }
 
-void open_board(char mine[ROWS][COLS],char show[ROWS][COLS], int x, int y)
+void open_board(char mine[ROWS][COLS],char show[ROWS][COLS], int x, int y,int* win)
 {
 	//int ret = ROW * COL - NUM;
 	
@@ -86,9 +86,9 @@ void open_board(char mine[ROWS][COLS],char show[ROWS][COLS], int x, int y)
 				int j = 0;
 				for (j = -1; j <= 1; j++)
 				{
-					if (show == '*')
+					if (show[x+i][y+j] == '*')
 					{
-						open_board(mine, show, x, y);
+						open_board(mine, show, x + i, y+j, win);
 					}
 				}
 			}
@@ -97,6 +97,7 @@ void open_board(char mine[ROWS][COLS],char show[ROWS][COLS], int x, int y)
 		{
 			show[x][y] = tmp + '0';
 		}
+		(*win)--;
 	}
 	
 	//ret--;
@@ -106,7 +107,7 @@ void gamer_mine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 {
 	int x = 0;
 	int y = 0;
-	//int ret = row * col - NUM;
+	int ret = row * col - NUM;
 	while (1)
 	{
 		printf("请玩家选择扫雷位置:->\n");
@@ -123,7 +124,7 @@ void gamer_mine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 			{
 					//int tmp = mine_num(mine, x, y);
 					//if (tmp = 0)
-					open_board(mine, show, x, y);
+					open_board(mine, show, x, y,&ret);
 					printf_board(show, ROW, COL);
 					//show[x][y] = tmp + '0';
 					//printf_board(show, row, col);
@@ -135,10 +136,10 @@ void gamer_mine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 		{
 			printf("输入非法，请重新输入\n");
 		}
-		//if (ret == 0)
-		//{
-		//	printf("恭喜，你赢了！\n");
-		//	break;
-		//}
+		if (ret == 0)
+		{
+			printf("恭喜，你赢了！\n");
+			break;
+		}
 	}
 }

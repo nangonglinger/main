@@ -12,7 +12,7 @@
 #define COLS COL+2
 
 //放置地雷的数目
-#define NUM 10
+#define NUM 75
 
 //函數的定义
 //打印菜单
@@ -33,4 +33,4 @@ void printf_board(char board[ROWS][COLS], int row, int col);
 void gamer_mine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);
 
 //实现棋盘的展开
-void open_board(char mine[ROWS][COLS], char show[ROWS][COLS], int x, int y);
+void open_board(char mine[ROWS][COLS], char show[ROWS][COLS], int x, int y,int* ret);
