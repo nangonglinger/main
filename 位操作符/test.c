@@ -12,3 +12,11 @@
 //	printf("%d %d", a, b);
 //	return 0;
 //}
+
+int main()
+{
+	int a = 1;
+	a = a << 2;
+	printf("%d", a);
+	return 0;
+}
