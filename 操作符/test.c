@@ -33,3 +33,31 @@
 //	printf("%d\n", sizeof(c));
 //	return 0;
 //}
+
+
+//写一个函数返回参数二进制中1的个数
+
+//int  count_one_bits(unsigned int value)
+//{
+//
+//
+//	// 返回 1的位数
+//}
+//
+//
+//int main()
+//{
+//	int a = 0;
+//	scanf("%d", &a);
+//	int b = count_one_bits(a);
+//	return 0;
+//}
+
+
+int mian()
+{
+	int a = 1;
+	a = sizeof(int);
+	printf("%d", a);
+	return 0;
+}
