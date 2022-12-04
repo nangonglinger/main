@@ -134,20 +134,23 @@
 //输入例子 :
 //1999 2299
 //输出例子 : 7
-int main()
-{
-	int m = 1999;
-	int n = 2299;
-	int i = 0;
-	int count = 0;
-	for (i = 0; i < sizeof(m) * 8; i++)
-	{
-		int j = 1 << i;
-		if ((((~j) & m) == m) != (((~j) & n) == n))
-		{
-			count++;
-		}
-	}
-	printf("%d", count);
-	return 0;
-}
+//int main()
+//{
+//	int m = 1999;
+//	int n = 2299;
+//	int i = 0;
+//	int count = 0;
+//	for (i = 0; i < sizeof(m) * 8; i++)
+//	{
+//		int j = 1 << i;
+//		if ((((~j) & m) == m) != (((~j) & n) == n))
+//		{
+//			count++;
+//		}
+//	}
+//	printf("%d", count);
+//	return 0;
+//}
+
+
+//整型提升
