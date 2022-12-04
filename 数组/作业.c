@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
+#include <string.h>
 //实现一个整形数组的冒泡排序
 
 //void bubbling(int str[], int sz)
@@ -42,26 +43,93 @@
 //3，实现reverse（）函数完成数组元素的逆置
 //要求自己设计以上函数的参数，返回值
 
-void init(int arr[],int sz,int a)//数组初始化函数
-{
-	int i = 0;
-	for (i = 0; i < sz; i++)
-	{
-		arr[i] = a;
-	}
-}
+//void init(int arr[],int sz,int a)//数组初始化函数
+//{
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		arr[i] = a;
+//	}
+//}
+//
+//void print(int arr[], int sz)/*打印数组每个元素*/
+//{
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//	printf("\n");
+//}
+//
+//void reverse(int arr[],int sz)
+//{
+//	//int len = strlen(arr);
+//	//int tmp = *arr;
+//	//*arr = *(arr + len - 1);
+//	//*(arr + len - 1) = '\0';
+//	//if (strlen(arr+1) > 1)
+//	//{		
+//	//	reverse(arr + 1);
+//	//}
+//	//*(arr + len - 1) = tmp;
+//		int left = 0;
+//	int right = sz-1;//数组最后一个元素的下标等于元素个数减一
+//	while (left<right)
+//	{
+//		char tmp = *(arr + left);
+//		*(arr + left) = *(arr + right);
+//		*(arr + right) = tmp;
+//		left++;
+//		right--;
+//	}
+//}
+//
+//int main()
+//{
+//	int a = 0;// 指定初始化内容
+//	int arr[] = {2,3,5,6,7,8,9,10};
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//
+//	print(arr,sz);
+//	reverse(arr,sz);
+//	print(arr, sz);
+//	init(arr,sz,a);
+//	print(arr, sz);
+//	return 0;
+//}
 
 
-int main()
-{
-	int a = 0;// 初始化为什么
-	int arr[] = {2,3,5,6,7,8,9,10};
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	init(arr,sz,a);
-	int i = 0;
-	for (i = 0; i < sz; i++)
-	{
-		printf("%d ", arr[i]);
-	}
-	return 0;
-}
+//将数组a的内容和数组b的内容进行交换
+
+//void reverse_arr(int arr1[], int arr2[],int sz)
+//{
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		int tmp = arr1[i];
+//		arr1[i] = arr2[i];
+//		arr2[i] = tmp;
+//	}
+//}
+//int main()
+//{
+//	int arr1[] = { 1,12,3,45,6,7,8 };
+//	int arr2[] = { 1,2,3,4,5,6,7 };
+//	int sz = sizeof(arr1) / sizeof(arr1[0]);
+//	reverse_arr(arr1, arr2,sz);
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr1[i]);
+//	}
+//	printf("\n");
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr2[i]);
+//	}
+//	return 0;
+//}
+
+
+
