@@ -1,1 +1,2 @@
 C:\Users\win\Desktop\c语言\数组\x64\Debug\数组.exe
+C:\Users\win\Desktop\c语言\main\数组\x64\Debug\数组.exe
