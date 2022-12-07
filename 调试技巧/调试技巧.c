@@ -45,19 +45,39 @@
 //	}
 //}
 
-void my_strcpy(char* dest, char* sor)
+//void my_strcpy(char* dest, char* sor)
+//{
+//	while (*dest++ = *sor++)
+//	{
+//		;
+//	}
+//}
+//int main()
+//{
+//	char arr1[20] = { "*************" };
+//	char arr2[] = "hello zhuzhu";
+//	/*strcpy(arr1, arr2);*/
+//	my_strcpy(arr1, arr2);
+//	printf("%s", arr1);
+//	return 0;
+//}
+
+#include <assert.h>
+unsigned int my_strlen(const char* arr)//size_t也是无符号整形
 {
-	while (*dest++ = *sor++)
+	assert(arr != NULL);
+	int count = 0;
+	while (*arr++ != '\0')
 	{
-		;
+		count++;
 	}
+	return count;
 }
+
 int main()
 {
-	char arr1[20] = { "*************" };
-	char arr2[] = "hello zhuzhu";
-	/*strcpy(arr1, arr2);*/
-	my_strcpy(arr1, arr2);
-	printf("%s", arr1);
+	char arr1[20] = "zhuzhu";
+	int ret = my_strlen(arr1);
+	printf("%d", ret);
 	return 0;
 }

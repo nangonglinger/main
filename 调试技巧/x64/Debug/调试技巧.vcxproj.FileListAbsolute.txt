@@ -1,1 +1,2 @@
 C:\Users\win\Desktop\c语言\调试技巧\x64\Debug\调试技巧.exe
+C:\Users\win\Desktop\c语言\code1\调试技巧\x64\Debug\调试技巧.exe
