@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="c语言初阶测试题.c" />
     <ClCompile Include="调试技巧.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
