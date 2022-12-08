@@ -46,8 +46,8 @@
 //}
 
 //写一个函数返回参数二进制中1的个数
-//
-//int count_one_bits(unsigned int value)
+
+//int count_one_bits(/*unsigned*/ int value)
 //{
 //	int count = 0;
 //	//int i = 0;
@@ -138,6 +138,7 @@
 //{
 //	int m = 1999;
 //	int n = 2299;
+//  scanf("%d %d",&m,&n);
 //	int i = 0;
 //	int count = 0;
 //	for (i = 0; i < sizeof(m) * 8; i++)
