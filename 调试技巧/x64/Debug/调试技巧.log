@@ -1,2 +1,4 @@
 ﻿  c语言初阶测试题.c
+C:\Users\win\Desktop\c语言\code1\调试技巧\c语言初阶测试题.c(45,2): warning C4013: “gets”未定义；假设外部返回 int
+C:\Users\win\Desktop\c语言\code1\调试技巧\c语言初阶测试题.c(46,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   调试技巧.vcxproj -> C:\Users\win\Desktop\c语言\code1\调试技巧\x64\Debug\调试技巧.exe
