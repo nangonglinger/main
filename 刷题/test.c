@@ -91,3 +91,14 @@
 //    printf("%.3f", 5.0/9.0 * (f - 32));
 //    return 0;
 //}
+
+
+#include <math.h>
+#define pai 3.14
+int main() {
+    int h, r;
+    scanf("%d %d", &h, &r);
+    float ret = (pai * h * pow(r, 2)) / 1000;
+    printf("%d", 10 / ret);
+    return 0;
+}
