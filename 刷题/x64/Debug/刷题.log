@@ -1,2 +1,4 @@
 ﻿  test.c
-  刷题.vcxproj -> C:\Users\win\Desktop\c语言\code1\刷题\x64\Debug\刷题.exe
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(98,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(97,17): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(98): error C4700: 使用了未初始化的局部变量“r”
