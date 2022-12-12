@@ -91,14 +91,49 @@
 //    printf("%.3f", 5.0/9.0 * (f - 32));
 //    return 0;
 //}
+//
+//
+//#include <math.h>
+//#define pai 3.14
+//int main() {
+//    int h, r;
+//    scanf("%d %d", &h, &r);
+//    float ret = (pai * h * pow(r, 2)) / 1000;
+//    printf("%d", 10 / ret);
+//    return 0;
+//}
 
 
-#include <math.h>
-#define pai 3.14
+
+int math_clm(int n, int m)
+{
+    int i = 0;
+    for (i = 1;; i++)
+    {
+        int ret = i * n;
+        if (m/ret == 0)
+        {
+            return ret;
+        }
+    }
+}
+
+int math_gcd(int n, int m)
+{
+    int c;
+    while (m % n != 0)
+    {
+        c = m % n;
+        m = n;
+        n = c;
+    }
+    return n;
+}
 int main() {
-    int h, r;
-    scanf("%d %d", &h, &r);
-    float ret = (pai * h * pow(r, 2)) / 1000;
-    printf("%d", 10 / ret);
+    int n, m, clm, gcd;
+    scanf("%d %d", &n, &m);
+    clm = math_clm(n, m);
+    gcd = math_gcd(n, m);
+    printf("%d", clm + gcd);
     return 0;
 }

@@ -1,3 +1,2 @@
 ﻿  test.c
-C:\Users\win\Desktop\c语言\code1\刷题\test.c(101,37): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   刷题.vcxproj -> C:\Users\win\Desktop\c语言\code1\刷题\x64\Debug\刷题.exe
