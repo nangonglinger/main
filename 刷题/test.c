@@ -105,35 +105,75 @@
 
 
 
-int math_clm(int n, int m)
-{
-    int i = 0;
-    for (i = 1;; i++)
-    {
-        int ret = i * n;
-        if (m/ret == 0)
-        {
-            return ret;
-        }
-    }
-}
+//int math_clm(int n, int m)
+//{
+//    int i = 0;
+//    for (i = 1;; i++)
+//    {
+//        int ret = i * n;
+//        if (m/ret == 0)
+//        {
+//            return ret;
+//        }
+//    }
+//}
+//
+//int math_gcd(int n, int m)
+//{
+//    int c;
+//    while (m % n != 0)
+//    {
+//        c = m % n;
+//        m = n;
+//        n = c;
+//    }
+//    return n;
+//}
+//int main() {
+//    int n, m, clm, gcd;
+//    scanf("%d %d", &n, &m);
+//    clm = math_clm(n, m);
+//    gcd = math_gcd(n, m);
+//    printf("%d", clm + gcd);
+//    return 0;
+//}
 
-int math_gcd(int n, int m)
-{
-    int c;
-    while (m % n != 0)
-    {
-        c = m % n;
-        m = n;
-        n = c;
-    }
-    return n;
-}
+// int main() {
+//    char a;
+//    while (~scanf("%c", &a))
+//    {
+//        if ((a >= 'a' && a <= 'a' + 26) || (a >= 'A' && a <= 'A' + 26))
+//        {
+//            printf("%c is an alphabet.\n", a);
+//        }
+//        else
+//        {
+//            printf("%c is not an alphabet.\n", a);
+//        }
+//        int ch = getchar();
+//    }
+//    return 0;
+//}
+
+
 int main() {
-    int n, m, clm, gcd;
-    scanf("%d %d", &n, &m);
-    clm = math_clm(n, m);
-    gcd = math_gcd(n, m);
-    printf("%d", clm + gcd);
+    int a;
+    scanf("%d", &a);
+    if (a % 2 == 0)
+    {
+        printf("2 ");
+    }
+    if (a % 3 == 0)
+    {
+        printf("3 ");
+    }
+    if (a % 7 == 0)
+    {
+        printf("7");
+    }
+    else
+    {
+        printf("%d", a);
+    }
     return 0;
 }
