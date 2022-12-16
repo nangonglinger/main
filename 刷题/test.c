@@ -155,25 +155,50 @@
 //    return 0;
 //}
 
+//
+//int main() {
+//    int a;
+//    scanf("%d", &a);
+//    if (a % 2 == 0)
+//    {
+//        printf("2 ");
+//    }
+//    if (a % 3 == 0)
+//    {
+//        printf("3 ");
+//    }
+//    if (a % 7 == 0)
+//    {
+//        printf("7");
+//    }
+//    else
+//    {
+//        printf("%d", a);
+//    }
+//    return 0;
+//}
+
+
+//int main() {
+//    long long a, b, c;
+//    scanf("%lld", &a);
+//    b = a * 1000;
+//    c = a * 100 + 10;
+//    if (b > c)
+//    {
+//        printf("v");
+//    }
+//    else
+//    {
+//        printf("w");
+//    }
+//    return 0;
+//}
 
 int main() {
-    int a;
-    scanf("%d", &a);
-    if (a % 2 == 0)
-    {
-        printf("2 ");
-    }
-    if (a % 3 == 0)
-    {
-        printf("3 ");
-    }
-    if (a % 7 == 0)
-    {
-        printf("7");
-    }
-    else
-    {
-        printf("%d", a);
-    }
+    int x, y, x1, y1;
+    scanf("%d %d", &x, &y);
+    int ch = getchar();
+    scanf("%d %d", &x1, &y1);
     return 0;
 }
