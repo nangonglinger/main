@@ -25,10 +25,16 @@
 //	int i;
 //	for (i = 0; i < 1000; i++)
 //	{
-//		a[i] = -1 - i;
 //	}
 //	printf("%d", strlen(a));
 //	return 0;
 //}
 
 
+int main()
+{
+	int a = 9;
+	float* pfloat = (float*)&a;
+	printf("%f", *pfloat);
+	return 0;
+}
