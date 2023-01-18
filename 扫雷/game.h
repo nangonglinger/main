@@ -12,7 +12,7 @@
 #define COLS COL+2
 
 //放置地雷的数目
-#define NUM 75
+#define NUM 10
 
 //函數的定义
 //打印菜单

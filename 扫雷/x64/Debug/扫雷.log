@@ -1,7 +1,7 @@
 ﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
   game.c
-C:\Users\win\Desktop\c语言\main\扫雷\game.c(114,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\win\Desktop\c语言\code1\扫雷\game.c(114,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   test.c
-C:\Users\win\Desktop\c语言\main\扫雷\test.c(30,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\win\Desktop\c语言\code1\扫雷\test.c(30,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   正在生成代码...
-  扫雷.vcxproj -> C:\Users\win\Desktop\c语言\main\扫雷\x64\Debug\扫雷.exe
+  扫雷.vcxproj -> C:\Users\win\Desktop\c语言\code1\扫雷\x64\Debug\扫雷.exe

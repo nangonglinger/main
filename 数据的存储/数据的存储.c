@@ -31,10 +31,19 @@
 //}
 
 
+//int main()
+//{
+//	int a = 9;
+//	float* pfloat = (float*)&a;
+//	printf("%f", *pfloat);
+//	return 0;
+//}
+
+
 int main()
 {
-	int a = 9;
-	float* pfloat = (float*)&a;
-	printf("%f", *pfloat);
+	int a = 10;
+	//int* p = &a;
+	printf("%d", a);
 	return 0;
 }
