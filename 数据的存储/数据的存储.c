@@ -39,11 +39,15 @@
 //	return 0;
 //}
 
-
+//int main()
+//{
+//	printf("hello bit\n");
+//	printf("ÄãºÃÊÀ½ç\n");
+//	return 0;
+//}
+ 
 int main()
 {
-	int a = 10;
-	//int* p = &a;
-	printf("%d", a);
+
 	return 0;
 }
