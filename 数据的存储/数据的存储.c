@@ -46,8 +46,13 @@
 //	return 0;
 //}
  
-int main()
-{
+//int main()
+//{
+//	int num1 = 1;
+//	int num2 = 3;
+//	scanf("%d %d", &num1, &num2);
+//	printf("1=%d 2=%d", num1, num2);
+//	return 0;
+//}
 
-	return 0;
-}
+ 
