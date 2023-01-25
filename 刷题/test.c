@@ -196,7 +196,8 @@
 //}
 //
 //
-//int main() {
+//int main() 
+// {
 //    int x, y, x1, y1;
 //    scanf("%d %d", &x, &y);
 //    int ch = getchar();
@@ -205,6 +206,16 @@
 //    int i, j;
 //    return 0;
 //}
-
-
  
+
+int main()
+{
+	int n = 0;
+	scanf("%d", &n);
+	for (int i = 0;i<4;i++)
+	{
+		printf("%d", n % 10);
+		n = n / 10;
+	}
+	return 0;
+}
