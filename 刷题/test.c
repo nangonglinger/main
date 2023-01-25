@@ -195,13 +195,16 @@
 //    return 0;
 //}
 //
+//
+//int main() {
+//    int x, y, x1, y1;
+//    scanf("%d %d", &x, &y);
+//    int ch = getchar();
+//    scanf("%d %d", &x1, &y1);
+//    int i, j;
+//    int i, j;
+//    return 0;
+//}
 
-int main() {
-    int x, y, x1, y1;
-    scanf("%d %d", &x, &y);
-    int ch = getchar();
-    scanf("%d %d", &x1, &y1);
-    int i, j;
 
-    return 0;
-}
+ 
