@@ -274,3 +274,30 @@
 //}
 
 
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d", &n);
+//	while (n > 0)
+//	{
+//		printf("%d", n % 10);
+//		n = n / 10;
+//	}
+//	return 0;
+//}
+
+
+//
+//int main()
+//{
+//	char a = 0;
+//	while (scanf("%c", &a) != EOF)
+//	{
+//		int ch = getchar();
+//		a += 32;
+//		printf("%c\n", a);
+//	}
+//	return 0;
+//}
+
+
