@@ -220,3 +220,57 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//    char arr[] = {0};
+//    scanf("%s", & arr);
+//    char* p = &arr;
+//    int count = 0;
+//    while (*(p++) != 0)
+//    {
+//        count++;
+//    }
+//    printf("%d", count);
+//    return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	while (~(scanf("%d", &i)))
+//	{
+//		if (i > 0)
+//			{printf("1\n");}
+//		else if (i == 0) 
+//			{ printf("0.5\n"); }
+//		else 
+//			{ printf("0\n"); }
+//	}
+//	return 0;
+//}
+
+//int main() {
+//    int a, b, c;
+//    while (~(scanf("%d %d %d", &a, &b, &c)))
+//    {
+//        if (a + b > c && a + c > b && b + c > a)
+//        {
+//            if (a == b && a == c) {
+//                printf("Equilateral triangle!\n");
+//            }
+//            else if (a == b || a == c || b == c) {
+//                printf("Isosceles triangle!\n");
+//            }
+//            else {
+//                printf("Ordinary triangle!\n");
+//            }
+//        }
+//        else
+//        {
+//            printf("Not a triangle!\n");
+//        }
+//    }
+//    return 0;
+//}
+
+
