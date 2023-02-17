@@ -300,4 +300,20 @@
 //	return 0;
 //}
 
-
+int i;
+int main()
+{
+	i--;
+	if (i > sizeof(i))
+	{
+		printf(">\n");
+	}
+	else
+	{
+		printf("<\n");
+	}
+	return 0;
+}
+//全局变量未定义时默认为0
+//sizeof操作符，输出结果类型默认为unsigned int
+//有符号整数和无符号整数相比较时会先把有符号转为无符号整数
