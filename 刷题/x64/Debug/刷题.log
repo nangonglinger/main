@@ -1,2 +1,8 @@
 ﻿  test.c
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(328,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(328,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(330,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(330,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(331,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\win\Desktop\c语言\code1\刷题\test.c(331,9): message : 请考虑在格式字符串中使用“%zd”
   刷题.vcxproj -> C:\Users\win\Desktop\c语言\code1\刷题\x64\Debug\刷题.exe
