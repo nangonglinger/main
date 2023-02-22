@@ -332,3 +332,28 @@
 //	
 //	return 0;
 //}
+
+
+//int main()
+//{
+//	int a = 10;
+//
+//	return 0;
+//}
+
+//
+//编程题求和
+//求sn=a+aa+aaa+aaaa+aaaaa的前五项之和，其中a是一个数字
+int main()
+{
+	int a = 0;
+	scanf("%d\n", &a);
+	int sum = 0;
+	int i = 0,tmp = 0;
+	for (i = 1; i < 6; a++)
+	{
+		tmp = (a * i) + tmp;
+	}
+	printf("%d\n", tmp);
+	return 0;
+}
